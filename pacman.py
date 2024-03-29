@@ -103,7 +103,7 @@ class GameState:
             return PacmanRules.getLegalActions(self)
         else:
             return GhostRules.getLegalActions(self, agentIndex)
-
+# this is a comment
     def generateSuccessor(self, agentIndex, action):
         """
         Returns the successor state after the specified agent takes the action.
